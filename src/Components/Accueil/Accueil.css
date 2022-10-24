@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navbarContainer{
+    width: 100%;
+    background-image: url('../../Assets/Image/library3.jpg');
+    background-size:cover;
+    height: 90vh;
+}
+
+.navbarBackground{
+    background-color: rgb(45, 45, 45, 0.7);
+    height:90vh;
+}
+
+.logo{
+    width: 50vh;
+    height: 20vh;
+}
+
+.navbarelement{
+    margin-left: 120vh;
+    margin-top: 2vh;
+}
+
+.navbarItem{
+    color: white;
+    font-size: 15px;
+}
+
+.bar{
+    color: white;
+    cursor: pointer;
+    width: 3vh;
+    height: 3vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
+.sloganContainer{
+    margin-top: 10vh;
+    width: 100vh;
+    margin-left: 13vh;
+}
+
+.slogan1{
+    text-transform: uppercase;
+    font-size: 75px;
+    color: white;
+}
+.slogan2{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    margin-top: -5vh;
+}
+
+.slogan3{
+    font-size: 15px;
+    color: white;
+    margin-top: -3vh;
+}
+
+
+
+.mbutton{
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 35vh;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: bebas, sans-serif;
+
+}
+
+.mbutton:hover{
+    background-color: rgb(189, 1, 1);
+    transition-duration: 300ms;
+}
+
+.sidebarItem{
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.sidebarItem:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    transition-duration: 300ms;
+}
+
+.librairieContainer{
+    /* border: 2px solid black; */
+    width: 150vh;
+    margin: 0 auto;
+}
+
+.book{
+    position: relative;
+    text-align: center;
+}
+
+.bookinfo{
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    opacity: 0%;
+}
+
+.bookinfo:hover {
+    transition-duration: 300ms;
+    opacity: 100%;
+}
+
+.bookname{
+    font-size: 25px;
+}
+
+
+.fond{
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 70%;
+}
+
+.fond:hover {
+    opacity: 70%;
+}
+
+.libbutton{
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 35vh;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: bebas, sans-serif;
+}
+
+.libbutton:hover{
+    background-color: rgb(189, 1, 1);
+    transition-duration: 300ms;
+}
+
+.librairieBackground{
+    background-color: rebeccapurple;
+}
+
+.vmbutton{
+    background-color: rgb(113, 113, 113);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 35vh;
+    height: 7vh;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: bebas, sans-serif;
+
+}
+
+.vmbutton:hover{
+    background-color: rgb(96, 95, 95);
+    transition-duration: 300ms;
+}

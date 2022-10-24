@@ -1,0 +1,5 @@
+export const Accueil = '/'
+export const Login = '/login'
+export const SignUp = '/signUp'
+export const Dashboard = '/dashboard'
+export const Verify = '/users/:id/verify/:token'
